@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    --gray: #a1a1a1;
+    --card: hsl(24 9.8% 10%);
+    --input: hsl(240 3.7% 15.9%);
+    --primary: hsl(346.8 77.2% 49.8%);
+    --black: hsl(20 14.3% 4.1%);
+}
+
+body {
+    background: var(--black);
+    color: #f2f2f2;
+    line-height: 2rem;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    /* visibility: hidden; */
+    list-style-type: none;
+}
+
+.card {
+    background-color: var(--card);
+    width: 320px;
+}
+
+main {
+    padding: 0 4px;
+}
+
+input {
+    border: 1px solid var(--input);
+    background-color: var(--black);
+    padding: 8px 16px;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    color: inherit;
+}
+input:focus{
+    border-color: var(--primary);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    background-color: var(--primary);
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: hsl(355.7 100% 97.3%);
+    /* width: 100%; */
+    margin: 4px 0;
+    cursor: pointer;
+}
+
+h1 {
+    background-color: var(--black);
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 20px 0;
+}
+
+footer {
+    color: var(--gray);
+    font-size: 0.6rem;
+    line-height: initial;
+    text-align: center;
+    background-color: var(--black);
+}

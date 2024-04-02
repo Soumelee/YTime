@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YTime</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body> 
+  <div class="card">
+    <h1>Get YouTube playlist information~</h1>
+    <main class="div">
+    <label for="playlistIdInput">Enter Playlist ID</label> <br>
+    <input type="text" id="playlistIdInput" placeholder="youtube.com/playlist?list=ID" />
+      <div class="buttons">
+    <button id="fetch">Fetch Data</button>
+    <button id="fetch-tab">Fetch Data from current tab</button>
+  </div>
+    <ul>
+      <li>Number of videos : <span id="num"></span> </li>
+      <li>Total time of playlist : <span id="tym"></span></li>
+      <li>Average length of videos : <span id="len"></span></li>
+      <li>Time at 1.25x : <span id="t1"></span></li>
+      <li>Time at At 1.50x : <span id="t2"></span></li>
+      <li>Time at 1.75x : <span id="t3"></span></li>
+      <li>Time at 2.00x : <span id="t4"></span></li>
+    </ul>
+  </main>
+    <footer>
+      <p>This works for playlist with upto 50 videos</p>
+      <p>Made by Soumili Mondal <i class="uil uil-cloud-heart"></i> </p>
+    </footer>
+
+  </div>
+  </div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "YTime",
+    "version": "1.0",
+    "description": "This will provide you information about youtube videos and playlist",
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
